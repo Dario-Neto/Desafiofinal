@@ -1,0 +1,328 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+body {
+ background: aqua ;
+ color: ;
+ -webkit-font-smoothing: antialiased;
+}
+
+body, input, button {
+ font-size: 16px;
+ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+}
+
+button {
+ cursor: pointer;
+}
+
+.navegacao{
+    width: 100%;
+    height: 122px;
+    background-color: white;
+    position: fixed;
+    display: flex;
+    z-index: 99;
+    top: 0px;
+    
+
+}
+
+.hamburguer{
+    display: none;
+}
+
+.logo{
+    width: 200px;
+    height: 80px;
+    position: fixed;
+    left: 140px;
+    top: 40px;
+    font-size: 2rem;
+    
+}
+
+.lista-navegação{
+    display: flex;
+    position: fixed;
+    width: 500px;
+    height: 60px;
+    right: 140px;
+    top: 50px;
+    
+}
+
+.lista-home{
+    margin-left: 50px;
+    font-size: 1.2rem;
+    color: slategray;
+}
+
+.corpo-site{
+    width: 100%;
+    height: 1900px;
+    background-color: white;
+    padding-top: 122px;
+    
+}
+
+.text-laranja{
+    
+}
+
+.text-imagine{
+    top: 423px;
+    left: 140px;
+    width: 60%;
+    height: 96px;
+    position: absolute;
+    font-size: 50px;
+    color: white;
+}
+
+.text-fale-conosco{
+    top: 579px;
+    left: 140px;
+    width: 30%;
+    height: 43px;
+    color: white;
+    position: absolute;
+    font-size: 30px;
+}
+
+.produtos{
+    width: 90%;
+    height: 100%;
+    position: sticky;
+    left: 140px;
+    margin-top: 90px;
+    
+   
+    
+}
+
+.produto{
+    margin: 5px;
+    width: 398px;
+    height: 398px;
+}
+
+.footer-home{
+    width: 100%;
+    height: 126px;
+    background-color: #F6F6F6;
+    position: absolute;
+    
+}
+
+.icon{
+    position: absolute;
+    left: 140px;
+    top: 50px;
+}
+
+.icons{
+    margin-left: 2vw;
+    width: 2vw;
+    height: 2vw;
+    
+     
+}
+
+.copy{
+    text-align: center;
+    margin-top: 45px;
+    font-size: 22px;
+
+}
+
+.layout-vainaweb{
+    width: 30%;
+    position: absolute;
+    right: 140px;
+    top: 50px;
+}
+
+@media (max-width: 1920px) {
+
+    .corpo-site{
+        width: 100%;
+        height: 2500px;
+        
+       
+        
+    }
+    
+    
+    
+    .produtos{
+        
+        
+        
+        
+        
+    }    
+
+    .produto{
+        width: 398px;
+        height: 398px;
+    }
+
+    .footer-home{
+        
+    }
+   
+   
+    
+}
+
+@media (max-width: 1440px) {
+
+    .corpo-site{
+        width: 100%;
+        height: 1700px;
+        
+       
+        
+    }
+    
+    
+    
+    .produtos{
+        
+        
+        
+        
+        
+    }    
+
+    .produto{
+        width: 200px;
+        height: 200px;
+    }
+
+    .footer-home{
+        
+    }
+   
+   
+    
+}
+
+@media (max-width: 1024px) {
+
+    .corpo-site{
+        width: 100%;
+        height: 1700px;
+        
+       
+        
+    }
+    
+    
+    
+    .produtos{
+        
+        
+        
+        
+        
+    }    
+
+    .produto{
+        width: 200px;
+        height: 200px;
+    }
+
+    .footer-home{
+        
+    }
+   
+   
+    
+}
+
+
+@media (max-width: 375px) {
+
+    .corpo-site{
+        width: 100%;
+        height: 5000px;
+        background-color: white;
+        padding-top: 122px;
+        
+    }
+    
+    
+    .produtos{
+        top: 733px;
+        left: 38px;
+        width: 300px;
+        height: 300px;
+        
+        
+    }    
+   
+   
+    .produto{
+        
+        width: 300px;
+        height: 300px;
+        
+    }
+
+    .lista-home{
+       display: none;
+        
+    
+    }
+
+    .text-imagine{
+        top: 412px;
+        left: 38px;
+        width: 249px;
+        height: 183px;
+    }
+    
+    .text-fale-conosco{
+        top: 613px;
+        left: 38px;
+        width: 151px;
+        height: 22px;
+    }
+
+    .footer-home{
+        width: 100%;
+        height: 196px;
+        background-color: #F6F6F6;
+        position: absolute;
+        
+    }
+
+    .icon{
+        position: absolute;
+        text-align: center;
+        width: 300px;
+        height: 50px;
+        
+    }
+
+    .icons{
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .copy{
+        text-align: center;
+        right: 5px;
+        display: none;
+}
+ .layout-vainaweb{
+     display: none;
+ }
+
